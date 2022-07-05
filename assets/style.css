@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
+*{
+    font-family: 'Inter', sans-serif;
+}
+h2{
+    font-size:1.5vw;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 40%;
+}
+
+input{
+    height: 4vh;
+    margin-top: 2vh;
+}
+.face{
+    background-color:#2051FF;
+    width:4vw;
+    height:4vh;
+    border:none;
+    border-radius: 5px;
+}
+
+.logoface{
+    width: 24px;
+    height: 24px;
+}
+
+.google{
+    background-color:#8A0000;
+    width:4vw;
+    height:4vh;
+    border:none;
+    border-radius: 5px;
+
+}
+.logogoogle{
+    width: 24px;
+    height: 24px;
+
+}
+.apple{
+    background-color: #000000;
+    width:4vw;
+    height:4vh; 
+    border:none;
+    border-radius: 5px;
+
+}
+
+.logoapple{
+    width: 24px;
+    height: 24px;
+
+}
