@@ -8,25 +8,48 @@
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <figure>
-        <img class="riot" src="assets/images/logoriot.png" alt="logo riot games">
+ <main class="loginMain">
+<section class="container_main">
+    <figure class="riot">
+        <img  src="assets/images/logoriot.png" alt="logo riot games">
     </figure>
     <h2>Fazer Login</h2>
    <form>
-       <input type="text" placeholder="Nome de Usuário">
-       <input type="password" placeholder="Senha">
+       <input  class="register" type="text" placeholder="Nome de Usuário">
+       <input class="register" type="password" placeholder="Senha">
         <div class="container_buttons">
           <button class="face">
-             <img class="logoface" src="assets/images/facebook.png">
+             <img class="logo" src="assets/images/facebook.png">
           </button>
           <button class="google">
-           <img class="logogoogle" src="assets/images/google.png">
+           <img class="logo" src="assets/images/google.png">
            </button>
            <button class="apple">
-            <img class="logoapple" src="assets/images/apple.png">
+            <img class="logo" src="assets/images/apple.png">
          </button>
        </div>
+       <label class="keepLogin">
+       <input type="checkbox" name="login">
+       Manter login
+    </label>
+    <div class="login_area">
+        <button class="buttonOff">
+            <img class="logo" src="assets/images/arrow.png">
+         </button>
+
+        <div class="login_area--help">
+          <a href="#">Não consegue iniciar a sessão?</a> <span></span>
+          <a href="#">Criar conta</a>
+        </div>
+        
+      </div>
    </form>
+</section>
+   <section class="mainBanner">
+       <img src="assets/images/photo.png">
+   </section>
+   
+</main>
     
 </body>
 </html>
