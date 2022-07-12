@@ -15,8 +15,8 @@
     </figure>
     <h2>Fazer Login</h2>
    <form>
-       <input  class="register" type="text" placeholder="Nome de Usuário">
-       <input class="register" type="password" placeholder="Senha">
+       <input  class="register" type="text" id="user"  placeholder="Nome de Usuário" >
+       <input class="register" type="password" placeholder="Senha" id="pass" >
         <div class="container_buttons">
           <button class="face">
              <img class="logo" src="assets/images/facebook.png">
@@ -33,12 +33,12 @@
        Manter login
     </label>
     <div class="login_area">
-        <button class="buttonOff">
+        <button  class="buttonLogin" disabled >
             <img class="logo" src="assets/images/arrow.png">
          </button>
 
         <div class="login_area--help">
-          <a href="#">Não consegue iniciar a sessão?</a> <span></span>
+          <a href="#">Não consegue iniciar a sessão?</a> 
           <a href="#">Criar conta</a>
         </div>
         
@@ -50,6 +50,6 @@
    </section>
    
 </main>
-    
+<script src="script.js"></script>  
 </body>
 </html>

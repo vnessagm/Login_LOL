@@ -94,15 +94,22 @@ form{
 }
 
 .keepLogin{
+font-weight: 700;
+font-size: 20px;
    display: flex;
    width:30vw;
    margin-left: -32px;
    margin-top:2vh;
 }
-.buttonOff{
+.buttonLogin{
+    opacity: 0.1;
+    cursor: pointer;
     border-radius: 3px;
-    background-color:rgba(255, 0, 46, 0.21) ;
+    background: #FF002E;;
     border:none;
+}
+.changeColor{
+    opacity:1;
 }
 
 .login_area{
@@ -110,6 +117,10 @@ form{
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+.login_area--help{
+    width:80%
 }
       
 .login_area--help a{
