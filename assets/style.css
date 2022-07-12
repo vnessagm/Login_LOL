@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
 *{
     font-family: 'Inter', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 h2{
     font-size:1.5vw;
@@ -42,7 +45,7 @@ form{
 
 .register{
     padding: 1vw;
-    font-size: 20px;
+    font-size: 1.2vw;
     font-weight: 700;
     width:30vw;
     height: 10vh;
@@ -52,7 +55,7 @@ form{
 
 .container_buttons{
     margin-top:2vh;
-    width: 40vw;
+    width: 35vw;
     display:flex;
     justify-content: space-evenly;
 }
@@ -65,8 +68,8 @@ form{
 }
 
 .logo{
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    
 }
 
 .google{
@@ -94,8 +97,8 @@ form{
 }
 
 .keepLogin{
-font-weight: 700;
-font-size: 20px;
+   font-weight: 700;
+   font-size: 1.2vw;
    display: flex;
    width:30vw;
    margin-left: -32px;
@@ -113,7 +116,7 @@ font-size: 20px;
 }
 
 .login_area{
- display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
@@ -128,4 +131,58 @@ font-size: 20px;
     color: #A6A6A6;
 
 
+}
+
+@media (max-width:500px){
+ .bannerImg{
+        display:none;
+    }
+   .register{
+    padding: 2px;
+    font-size: 1.2vw;
+    font-weight: 700;
+    width:30vw;
+    height: 20px;
+    margin-top: 2vh;
+
+    
+
+}
+
+.logo{
+    width:20px;
+}
+.riot{
+    margin-bottom: 10px;
+}
+.riot img{
+    width:100px;
+   
+}
+h2{
+   
+    font-size:12px;
+}
+
+.face {
+    height:40px;
+}
+.google{
+    height:40px;
+
+}
+.apple{
+    height:40px;
+}
+
+.keepLogin{
+    font-size:10px;
+}
+
+.login_area{
+    margin-top:10px;
+}
+.register{
+    font-size:10px;
+}
 }
