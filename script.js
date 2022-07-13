@@ -5,10 +5,10 @@ function validateFiels(){
 
    if(user.value.length>=1 && pass.value.length>=8){
        button.classList.add("changeColor")
-       button.setAtribute("disabled")
+       button.setAttribute("disabled")
    } else{
     button.classList.remove("changeColor")
-    button.setAtribute("disabled", "disabled")
+    button.setAttribute("disabled", "disabled")
    }
 }
 user.addEventListener("input", validateFiels)
